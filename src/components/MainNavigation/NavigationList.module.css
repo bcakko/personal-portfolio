@@ -18,14 +18,13 @@ a:hover {
   border-radius: 1px;
   margin-bottom: 4px;
   transition: width 0.15s linear;
+  background-color: var(--main-white);
 }
 
 .active > .line,
 a:hover > .line{
   width: 40px;
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .line {
