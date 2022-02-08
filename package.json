@@ -2,7 +2,7 @@
   "name": "baris-can-akkocak",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bcakko.github.io/personal-portfolio",
+  "homepage": "https://bcakko.github.io/personal-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
