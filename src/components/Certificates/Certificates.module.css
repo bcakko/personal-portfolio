@@ -1,0 +1,48 @@
+.projects {
+  color: var(--main-white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.flag {
+  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+}
+.flag a {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  font-size: 0.825rem;
+  color: rgb(172, 172, 172);
+}
+.flag:hover {
+  transform: scale(1.02);
+}
+
+.projects img {
+  width: 20%;
+  border-radius: 5px;
+}
+
+.link-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    width: 90%;
+    margin: 15vw auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.footer {
+  display: none;
+  width: 100%;
+  font-size: 0.75rem;
+  background-color: #242424;
+  color: var(--main-white);
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    display: block;
+  }
+}
+
+
+

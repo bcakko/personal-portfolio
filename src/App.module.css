@@ -1,0 +1,31 @@
+.main {
+  position: relative;
+  width: 45%;
+}
+
+.details {
+  position: absolute;
+  left: 50%;
+  padding: 88px 44px 0 0;
+  width: 600px;
+}
+
+@media screen and (max-width: 1240px) {
+  .details {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+  .details {
+    width: 100%;
+    position: static;
+    padding: 0;
+  }
+}

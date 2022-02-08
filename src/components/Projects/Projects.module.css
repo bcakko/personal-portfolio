@@ -1,0 +1,65 @@
+.projects {
+  color: var(--main-white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.flag {
+  margin-bottom: 10px;
+  position: relative;
+}
+.flag a {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.flag h3 {
+  margin-top: 0;
+}
+.description {
+  font-size: 0.75rem;
+  color: rgb(172, 172, 172);
+  margin-bottom: 0;
+}
+.flag:hover {
+  transform: scale(1.02);
+}
+
+.projects .img {
+  position: relative;
+  margin: auto 0;
+  width: 20%;
+  height: 20%;
+  min-width: 50px;
+  max-width: 80px;
+  border-radius: 5px;
+  color: var(--main-white);
+}
+
+.link-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (min-width: 1001px) {
+  .link-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    width: 90%;
+    margin: 15vw auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
