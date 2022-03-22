@@ -1,7 +1,7 @@
 import classes from "./Projects.module.css";
-import {GiDiceTwentyFacesTwenty} from 'react-icons/gi'
-import {RiSurveyLine} from 'react-icons/ri'
-import {AiOutlineShoppingCart} from 'react-icons/ai'
+import { GiDiceTwentyFacesTwenty } from "react-icons/gi";
+import { RiSurveyLine } from "react-icons/ri";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import Card from "../UI/Card";
 import { BsLink45Deg } from "react-icons/bs";
 
@@ -12,7 +12,8 @@ const Projects = () => {
       flag: "React.js",
       name: "Initiatives App",
       image: <GiDiceTwentyFacesTwenty className={classes.img} />,
-      description: `Combat tracker suitable for TTRPG games`,
+      description:
+        "Combat tracker suitable for TTRPG games. Uses Context API & input forms, allows user to keep track of their 'combat initiatives' while keeping user-entered data in localStorage.",
       link: "https://bcakko.github.io/initiatives-app/",
     },
     {
@@ -20,7 +21,7 @@ const Projects = () => {
       flag: "HTML & CSS",
       name: "Survey From",
       image: <RiSurveyLine className={classes.img} />,
-      description: "Survey form about a fantasy novel",
+      description: "Survey form about one of my favorite fantasy novels.",
       link: "https://codepen.io/bcakko/full/LYyJwMb",
     },
     {
@@ -34,13 +35,8 @@ const Projects = () => {
   ];
 
   const projects = projectsList.map((element) => (
-    <Card className={classes.flag} 
-    key={element.id}>
-      <a
-        href={`${element.link}`}
-        target="_blank"
-        rel="noreferrer"
-      >
+    <Card className={classes.flag} key={element.id}>
+      <a href={`${element.link}`} target="_blank" rel="noreferrer">
         <div>
           <h3>{element.flag}</h3>
           <h5 className={classes.name}>{element.name}</h5>
