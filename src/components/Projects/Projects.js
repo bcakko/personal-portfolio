@@ -37,7 +37,7 @@ const Projects = () => {
   const projects = projectsList.map((element) => (
     <Card className={classes.flag} key={element.id}>
       <a href={`${element.link}`} target="_blank" rel="noreferrer">
-        <div>
+        <div className={classes.info}>
           <h3>{element.flag}</h3>
           <h5 className={classes.name}>{element.name}</h5>
 

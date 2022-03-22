@@ -7,6 +7,9 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+.info {
+  width: 75%;
+}
 .flag {
   margin-bottom: 10px;
   position: relative;
