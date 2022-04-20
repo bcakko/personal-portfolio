@@ -1,5 +1,5 @@
 import classes from "./Projects.module.css";
-import { GiDiceTwentyFacesTwenty } from "react-icons/gi";
+import { GiDiceTwentyFacesTwenty, GiSpartanHelmet } from "react-icons/gi";
 import { RiSurveyLine } from "react-icons/ri";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Card from "../UI/Card";
@@ -7,6 +7,15 @@ import { BsLink45Deg } from "react-icons/bs";
 
 const Projects = () => {
   const projectsList = [
+    {
+      id: "age-of-empires",
+      flag: "React.js & Redux",
+      name: "Age of Empires Units",
+      image: <GiSpartanHelmet className={classes.img} />,
+      description:
+        "App for listing Age of Empires 2 Units and filtering them by age & cost reequirements. Uses Redux for state management.",
+      link: "https://github.com/bcakko/age-of-empires-units",
+    },
     {
       id: "initiatives",
       flag: "React.js",
